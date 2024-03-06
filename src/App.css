@@ -1,0 +1,69 @@
+header{
+    flex:1;
+    display: flex;
+    align-items: center;
+    font-size: 1.5rem;
+}
+.main{
+    flex: 5;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+
+}
+.countdown{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+.countdown1{
+    height: 60%;
+    display: flex;
+    font-size: 4rem;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+
+}
+.countdown1 *{
+    text-align: center;
+}
+.inDec{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+.btnCountdown{
+    display: flex;
+    justify-content: center;
+    height: 40%;
+    align-items: center;
+    width: 100%;
+}
+.OKCancel{
+    display: flex;
+    width: 100%;
+    justify-content:space-evenly;
+    
+}
+.btnStrStRes{
+    flex: 1;
+    display: flex;
+    
+}
+.btnStrStRes button{
+    flex:1;
+    padding: 10px;
+    align-self: baseline;
+}
+.icon{
+    font-size: 2rem;
+}
+.LgIcon{
+    font-size: 3rem;
+}
+
+
